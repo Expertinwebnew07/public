@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+
+}
+body{
+    width: 100%;
+    /* background: #f3f3; */
+    /* margin: 2px; */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0, 0.6);
+
+
+}
+header{
+    width: 100%;
+    height: 30px;
+    /* background-color:red; */
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0, 0.6);
+
+}
+nav{
+    width: 95%;
+    height: 60%;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+ p a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+nav p span{
+    font-weight: bolder;
+}
+main{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+#main{
+    
+    width: 80%;
+    display: block;
+    
+}
+  
+
+ .upperpick{
+    width: 100%;
+    height: 400px;
+    background:url("../photo/img1.jpg") center no-repeat;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    letter-spacing: 5px;
+  
+    
+    
+}
+
+.upperpick span{
+    background: rgba(0,0,0, 0.6);
+    padding: 10px;
+    font-size: x-large;
+    font-weight:bold;
+    
+}
+.upperpick p{
+    
+    font-weight: 500;
+    font-size: large;
+
+}
+
+.content{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display:block;
+    
+    justify-content: center;
+    
+    
+}
+.content span{
+    width: 10%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+} 
+.picks1{
+    width: 100%;
+    height: 350px;
+    /* background-color:yellow; */
+    margin-bottom: 10px;
+    display:inline-flex ;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+   
+}
+.fourpick{
+    width: 24%;
+    height: 48%;
+    /* border: 2px solid pink; */
+    
+    
+}
+.picka,.pickh{
+    background: url("../photo/img2.jpg") center;
+}
+.pickb,.pickg{
+    background: url("../photo/img3.jpg") center ;
+}
+.pickc,.pickf{
+    background: url("../photo/img4.jpg") center;
+}
+.pickd,.picke{
+    background: url("../photo/img5.jpg") center;
+}
+
+.picks1 p{
+    width: 100px;
+    height: 20px;
+    background: rgba(0,0,0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2f2;
+}
+
+
+.picks2{
+    width: 100%;
+    height: 350px;
+    /* background-color:yellow; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+.humanpick{
+    width: 24%;
+    height: 98%;
+    /* border: 2px solid pink; */
+    display:block;
+    
+    
+   
+}
+
+.humanpick img{
+    width:100%;
+    height: 50%;
+}
+.humanpick .biodata{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid purple; */
+    font-size: large;
+    
+}
+.biodata .foundation{
+    color:rgba(0,0,0, 0.6);
+}
+.humanpick .interaction{
+    background-color:#E5E3E3;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+input{
+    display:block;
+    width: 100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    margin-top: 10px ;
+    border: 2px solid #0001;
+    color: rgba(0,0,0, 0.6);
+}
+form button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(0,0,0);
+    color: #f7f7f7;
+}
+
+
+.picks
+{
+    /* border: 2px solid red; */
+    height: 300px;
+}
+.downpick{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 5px;
+    background: url("../photo/fourway.jpg") no-repeat center  ;
+   
+
+}
+footer{
+    
+    height: 40px;
+    background-color:#000;
+    text-align: center;
+    color: #ffff;
+    
+
+    
+}
+
+.content{
+    justify-content: center;
+}
+
+@media (max-width:600px) {
+    #main{
+    
+        width: 100%;
+        display: block;
+        
+    }
+    
+    .upperpick,.downpick{
+        width: 100%;
+        height: 200px;
+        background-color: green;
+        margin-bottom: 0px;
+    }
+
+    .picks1,.picks2{
+        width: 100%;
+        height: auto;
+        background-color:yellow;
+        display:block;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+        
+       
+    }
+    .fourpick,.humanpick{
+      width: 100%;
+      height: 20em;
+      
+      border: 1px solid pink;
+      
+      
+    }
+    
+
+}
