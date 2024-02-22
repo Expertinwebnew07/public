@@ -253,14 +253,14 @@ footer{
     .upperpick,.downpick{
         width: 100%;
         height: 200px;
-        background-color: green;
+        /* background-color: green; */
         margin-bottom: 0px;
     }
 
     .picks1,.picks2{
         width: 100%;
         height: auto;
-        background-color:yellow;
+        /* background-color:yellow; */
         display:block;
         margin-bottom: 0px;
         box-sizing: border-box;
@@ -271,7 +271,7 @@ footer{
       width: 100%;
       height: 20em;
       
-      border: 1px solid pink;
+      /* border: 1px solid pink; */
       
       
     }
